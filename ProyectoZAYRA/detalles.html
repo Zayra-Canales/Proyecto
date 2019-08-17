@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Probando</title>
+	<!--- Estilos De Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<!--- Estilos fontawesome -->
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<!--- Estilos Css -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<!-- Inicio de Codificacion-->
+
+	<nav class="navbar navbar-expand-lg  bg-secondario">
+  <a class="navbar-brand" href="#">BRYZA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categorias
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Computadoras</a>
+          <a class="dropdown-item" href="#">Telefonos</a>
+          <a class="dropdown-item" href="#">Ipad</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+	<div class="container mt-5">
+		<div class="row">
+		 	<div class="col-md-12">
+                <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="img/pc-1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <p class="card-text" id="empresa" >Apple</p>
+                      <p class="card-text" id="categoria">portatil</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="card-text" id="precio">40,000</p>
+                      <p class="card-text" id="caracteristicas" > i7 4ta, 128 GB SSD, 4GB ram </p>
+                    </div>
+                  </div><br>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  class="btn btn-sm btn-outline-warning">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+		</div>
+	</div>
+
+
+
+	<!-- Fin de codificacion-->
+
+	<!--- JQuery-->	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!---bootstrap JQuery-->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<!---Fontawesone-->
+	<script type="text/javascript" src="js/Controlador.js"></script>
+</body>
+</html>
