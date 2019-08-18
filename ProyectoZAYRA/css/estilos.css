@@ -47,6 +47,120 @@ a{
 	color: #66bb6a;
 }
 
+.text-primario{
+  color: #66bb6a;
+}
+
 .nav-link:hover, .title:hover, .portfolio-box:hover, i:hover {
 	color: #66bb6a !important;
 }
+
+.nav-main:hover{
+  color: white !important;
+}
+
+
+.precios {
+  background: url("../img/bg.jpg"), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0; 
+}
+ 
+.precios .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 70px; 
+  }
+
+.precios .plan {
+    background: #fff;
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    -box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); 
+  }
+
+.precios .plan .nombre {
+      font-size: 32px;
+      font-weight: 300;
+      line-height: 32px;
+      margin-bottom: 30px; 
+    }
+
+.precios .plan .precio {
+      font-weight: 300;
+      font-size: 48px;
+      margin-bottom: 30px; 
+    }
+
+.precios .plan .caracteristicas {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 50px; 
+    }
+
+.precios .plan .caracteristicas li {
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #dedede; 
+
+      }
+
+.precios .plan .boton {
+      width: 70%;
+      font-size: 16px;
+      padding: 15px 0;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100px; 
+    }
+
+.precios .plan.verde .nombre,
+.precios .plan.verde .precio {
+      color: #86b773; 
+    }
+
+.precios .plan.verde .boton {
+      color: #86b773;
+      border: 2px solid #86b773; 
+    }
+
+.precios .plan.verde .boton:hover {
+        background: #86b773;
+        color: #fff; 
+    }
+
+.precios .plan.active {
+      background: #66bb6a;
+      color: #fff; 
+    }
+    
+.precios .plan.active .boton {
+        color: #fff;
+        border: 2px solid #fff;
+   }
+   
+.precios .plan.active .boton:hover {
+          background: #fff;
+          color: #4c8dce; 
+    }
+.precios .plan.naranja .nombre,
+.precios .plan.naranja .precio {
+      color: #ddb146; 
+    }
+
+.precios .plan.naranja .boton {
+      color: #ddb146;
+      border: 2px solid #ddb146;
+    }
+     
+.precios .plan.naranja .boton:hover {
+        background: #ddb146;
+        color: #fff; 
+    }
