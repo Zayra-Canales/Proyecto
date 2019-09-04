@@ -8,12 +8,14 @@
 	<!--- Estilos fontawesome -->
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 	<!--- Estilos Css -->
+	<link rel="stylesheet" type="text/css" href="css/creative.min.css">
+		<!--- Estilos Css -->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<!-- Inicio de Codificacion-->
 
-  <nav class="navbar navbar-expand-lg bg-success fixed-top py-3" id="mainNav">
+	   <nav class="navbar navbar-expand-lg bg-success fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger title text-white nav-main" href="main.html">BRYZATEC</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +32,7 @@
           <a class="dropdown-item" href="#">Ipad</a>
           <a class="dropdown-item" href="#">Portatiles</a>
           <div class="dropdown-divider"></div>
-          <a   class="dropdown-item" href="#">Accesosrios</a>
+          <a class="dropdown-item" href="#">Accesosrios</a>
         </div>
       </li>
         </ul>
@@ -39,14 +41,11 @@
       </div>
     </div>
   </nav>
-  <br><br>
+<br><br><br><br><br>
 
-	<div class="container text-center mt-5">
-		<div class="row mt-5 text-center" id="res-productos">
-		
-		</div>
-	</div>
-
+<div class="container">
+   <h1>Perfil empresa</h1>
+</div>
 
 
 	<!-- Fin de codificacion-->
@@ -55,7 +54,9 @@
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<!---bootstrap JQuery-->
 	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<!---Fontawesone-->
+	<script type="text/javascript" src="js/creative.min.js"></script>	
 	<!--- Contrsolador JS-->	
-	<script type="text/javascript" src="js/Controlador.js"></script>
+	<script type="text/javascript" src="js/empresa.js"></script>
 </body>
 </html>

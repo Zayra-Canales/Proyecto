@@ -30,7 +30,7 @@
           <a class="dropdown-item" href="#">Ipad</a>
           <a class="dropdown-item" href="#">Portatiles</a>
           <div class="dropdown-divider"></div>
-          <a   class="dropdown-item" href="#">Accesosrios</a>
+          <a class="dropdown-item" href="#">Accesosrios</a>
         </div>
       </li>
         </ul>
@@ -40,12 +40,6 @@
     </div>
   </nav>
   <br><br>
-
-	<div class="container text-center mt-5">
-		<div class="row mt-5 text-center" id="res-productos">
-		
-		</div>
-	</div>
 
 
 

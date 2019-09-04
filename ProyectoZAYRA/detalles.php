@@ -8,14 +8,12 @@
 	<!--- Estilos fontawesome -->
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 	<!--- Estilos Css -->
-	<link rel="stylesheet" type="text/css" href="css/creative.min.css">
-		<!--- Estilos Css -->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<!-- Inicio de Codificacion-->
-
-	   <nav class="navbar navbar-expand-lg bg-success fixed-top py-3" id="mainNav">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-success fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger title text-white nav-main" href="main.html">BRYZATEC</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,42 +39,12 @@
       </div>
     </div>
   </nav>
-<br><br><br><br><br>
+  <br><br>
 
-<div class="container">
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Empresa</label>
-      <input type="email" class="form-control" id="correoEmpresa" placeholder="Email">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Direccion</label>
-      <input type="password" class="form-control" id="direccionEmpresa" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Contraseña</label>
-      <input type="email" class="form-control" id="contraEmpresa" placeholder="Email">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Confirmar Contraseña</label>
-      <input type="password" class="form-control" id="contraEmpresa2" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-4">
-      <label for="inputState">Pais</label>
-      <select id="paisEmpresa" class="form-control">
-        <option selected>Choose...</option>
-        <option value="1">Honduras</option>
-        <option value="2">Estados Unidos</option>
-        <option value="3">Mexico</option>
-      </select>
-    </div>
-  </div>
-  <button id="btn-agregarEmpresa" type="button" class="btn btn-warning">Registrar</button>    
-  </div>
+	<div class="container mt-5">
+		<?php echo $_GET["id"]; ?>
+	</div>
+
 
 
 	<!-- Fin de codificacion-->
@@ -86,8 +54,6 @@
 	<!---bootstrap JQuery-->
 	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 	<!---Fontawesone-->
-	<script type="text/javascript" src="js/creative.min.js"></script>	
-	<!--- Contrsolador JS-->	
-	<script type="text/javascript" src="js/empresa.js"></script>
+	<script type="text/javascript" src="js/Controlador.js"></script>
 </body>
 </html>

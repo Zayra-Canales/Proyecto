@@ -4,6 +4,7 @@
 
 		private $nombre;
 		private $pais;
+		private $contrasenia;
 		private $direccion;
 		private $longitud;
 		private $banner;
@@ -70,6 +71,7 @@
 		public function toString(){
 			return "Nombre: " . $this->nombre . 
 				" Pais: " . $this->pais . 
+				" Contrasenia: " . $this->contrasenia .
 				" Direccion: " . $this->direccion . 
 				" Longitud: " . $this->longitud . 
 				" Banner: " . $this->banner . 
@@ -88,6 +90,13 @@
 		public function login(){
 
 			echo "metodo para logearse";
+
+		}
+
+		public function editar(){
+
+			echo "metodo para editar una Empresa";
+
 
 		}
 
