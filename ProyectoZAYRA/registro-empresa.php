@@ -53,34 +53,31 @@
 
     <div class="col-lg-3 col-xl-3 col-md-12 col-xs-12 ">
         <h3 class="text-center text-success titulo">Registrar Empresa</h3><br>
-      <div class="form-grou grupo ">
+
+      <div class="grupo ">
       <label class="label" for="inputEmail4">Nombre empresa</label>
-      <input type="email" class="form-contro imput" id="correoEmpresa" placeholder="nombre empresa">
+      <input type="email" class=" imput" id="correoEmpresa" placeholder="Nombre empresa">
     </div>
 
-    <div class="form-group">
-      <label for="inputPassword4">Direccion</label>
-      <input type="password" class="form-control" id="direccionEmpresa" placeholder="Direccion">
+    <div class="grupo ">
+      <label class="label" for="inputEmail4">Direccion</label>
+      <input type="text" class=" imput" id="direccionEmpresa" placeholder="Direccion">
     </div>
 
-    <div class="form-group">
-      <label for="inputEmail4">Contraseña</label>
-      <input type="email" class="form-control" id="contraEmpresa" placeholder="contraseña">
+    <div class="grupo">
+      <label class="label" for="inputEmail4">Contraseña</label>
+      <input type="password" class="imput" id="contraEmpresa" placeholder="contraseña">
     </div>
 
-    <div class="form-group">
-      <label for="inputPassword4">Confirmar Contraseña</label>
-      <input type="password" class="form-control" id="contraEmpresa2" placeholder="confirmar contraseña">
+    <div class="grupo">
+      <label class="label" for="inputPassword4">Confirmar Contraseña</label>
+      <input type="password" class=" imput" id="contraEmpresa2" placeholder="confirmar contraseña">
     </div>
 
-    <div class="form-group">
-      <label for="inputPassword4">Confirmar Contraseña</label>
-      <input type="password" class="form-control" id="contraEmpresa2" placeholder="confirmar contraseña">
-    </div>
-
-    <div class="form-group">
-      <label for="inputState">Pais</label>
-      <select id="paisEmpresa" class="form-control">
+ 
+    <div class="form-group grupo">
+      <label class="label" for="inputState">Pais</label>
+      <select id="paisEmpresa" class="imput">
         <option selected>Choose...</option>
         <option value="1">Honduras</option>
         <option value="2">Estados Unidos</option>
@@ -89,7 +86,11 @@
     </div>
 
     <br>
-    <button class="boton btn-block">Agregar</button>
+    <button class="btn btn-outline-success borde btn-block p-2">Agregar</button>
+    <a href="main.html" class="btn btn-outline-secondary btn-block p-2 letra borde">Cancelar</a>
+
+
+
 
 
     </div>

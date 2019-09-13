@@ -207,7 +207,7 @@ a{
   
 }
 
-button {
+button  {
   outline: none !important;
   border: none;
   background: transparent;
@@ -233,6 +233,11 @@ input{
   border: none;
 }
 
+select{
+  outline: none;
+  border: none;
+}
+ 
 .grupo {
   width: 100%;
   position: relative;
@@ -248,7 +253,7 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  padding:  20px;
   min-width: 244px;
   height: 50px;
 
@@ -257,5 +262,14 @@ input{
   color: #ffff;
   line-height: 1.2;
   background-color: rgb(40, 167, 74);
-  border-radius: 25px;
+  border-radius: 20px;
+}
+
+.letra{
+  font-family: Poppins-Medium;
+
+}
+
+.borde{
+  border-radius: 20px;
 }

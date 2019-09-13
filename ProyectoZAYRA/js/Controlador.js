@@ -16,9 +16,9 @@ function cargarDatos() {
 
 	for (var i = 0; i < datos.length; i++) {
 		
-		$("#res-productos").append(
+		$("#res-producto").append(
 
-			`<div class="col-lg-3 col-md-3 col-sm-6 border m-2 p-2">
+			`<div class="col-lg-3 col-md-3 col-sm-6">
             <div class="thumbnail">
               <a href="#">
                 <img class="img-fluid tamaño" src="${datos[i].img}">
