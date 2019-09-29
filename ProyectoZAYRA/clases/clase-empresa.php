@@ -1,7 +1,7 @@
 <?php
 
 	class Empresa{
-
+		private $idEmpresa;
 		private $nombre;
 		private $pais;
 		private $contrasenia;
@@ -11,13 +11,14 @@
 		private $logotivo;
 		private $redesSociales;
 
-		public function __construct($nombre,
+		public function __construct($idEmpresa,$nombre,
 					$pais,
 					$direccion,
 					$longitud,
 					$banner,
 					$logotivo,
 					$redesSociales){
+			$this->idEmpresa = $idEmpresa;
 			$this->nombre = $nombre;
 			$this->pais = $pais;
 			$this->direccion = $direccion;
@@ -83,23 +84,25 @@
 
 		public function agregar(){
 
-			echo "metodo para guardarEmpresa";
-
-		}
-
-		public function login(){
-
-			echo "metodo para logearse";
-
+			echo "holis";
+			# code...
 		}
 
 		public function editar(){
-
-			echo "metodo para editar una Empresa";
-
-
+			# code...
 		}
+        
+        public function obtenerInformacion($idEmpresa){
+        	# code...
+        }
 
+        public function obtenerProducto($idEmpresa){
+        	# code...
+        }
 
+         public function obtenerPromociones($idEmpresa){
+        	# code...
+        }
 	}
+
 ?>
