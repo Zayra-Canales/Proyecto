@@ -30,7 +30,7 @@
           <a class="dropdown-item" href="#">Ipad</a>
           <a class="dropdown-item" href="#">Portatiles</a>
           <div class="dropdown-divider"></div>
-          <a   class="dropdown-item" href="#">Accesosrios</a>
+          <a class="dropdown-item" href="#">Accesosrios</a>
         </div>
       </li>
         </ul>
@@ -40,36 +40,6 @@
     </div>
   </nav>
   <br><br>
-
-	<div class="container text-center mt-5">
-		<div class="row mt-5 text-center" id="res-productos">
-		
-		</div>
-	</div>
-
-  <div class="container" >
-    <div class="row">
-      <div class="col-md-3 col-sm-6 border p-2">
-            <div class="thumbnail">
-              <a href="#">
-                <img class="img-fluid" src="img/pc-3.png">
-              </a>
-              <hr class="border" >
-              <div class="caption">
-                <h3>Imac</h3>
-                <p>Aplle</p>
-                <p>descripcion.</p>
-                <p>Precio</p>
-                <p>
-                  <a class="btn btn-dark" href="">Detalles</a>
-                  <a class="btn btn-outline-warning" href="">Favorito</a>
-
-                </p>
-              </div>
-            </div>
-          </div>
-    </div>
-  </div>
 
 
 

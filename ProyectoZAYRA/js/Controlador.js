@@ -16,8 +16,27 @@ function cargarDatos() {
 
 	for (var i = 0; i < datos.length; i++) {
 		
-		$("#res-productos").append(
+		$("#res-producto").append(
 
+			`<div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="thumbnail">
+              <a href="#">
+                <img class="img-fluid tamaño" src="${datos[i].img}">
+              </a>
+              <div class="caption mb-2">
+              <br>
+                <a href="empresa.php" >${datos[i].empresa}</a>
+                <h4 class="" >${datos[i].nombreArticulo}</h4>
+                <h5 class="text-success">Categoria ${datos[i].categoria}</h5>
+                <p>Precio ${datos[i].precio}</p>
+                <p>
+                  <a class="btn btn-outline-primary" href="detalles.php?id=${datos[i].id}">Detalles</a>
+                  <button onclick="agregarFavoritos(${datos[i].id})" class="btn btn-outline-success">favorito</button>
+                </p>
+              </div>
+            </div>
+          </div>`
+/*
 			`<div class="col-xl-4 col-md-4 col-sm-6 col-12">
                 <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="${datos[i].img}" alt="Card image cap">
@@ -35,7 +54,7 @@ function cargarDatos() {
                 </div>
               </div>
             </div>`
-
+*/
 		);
 
 
@@ -62,5 +81,11 @@ function detalles (id){
 
 	$("#precio").html(producto.precio);
 
+
+}
+
+function agregarFavoritos(idProducto){
+
+	alert("metodo para agregar a favoritos " + idProducto);
 
 }

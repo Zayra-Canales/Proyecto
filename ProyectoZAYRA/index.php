@@ -209,7 +209,7 @@
                 <li>5 Articulos</li>
                 <li>Dominio Personal</li>
               </div>  
-              <a class="boton" href="registro-empresa.html">Contratar Ahora</a>
+              <a class="boton" href="registro-empresa.php?plan=1">Contratar Ahora</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -220,7 +220,7 @@
                 <li>15 Articulos</li>
                 <li>Dominio Personal</li>
               </div>
-              <a class="boton" href="registro-empresa.html">Contratar Ahora</a>
+              <a class="boton" href="registro-empresa.php?plan=2">Contratar Ahora</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -231,7 +231,7 @@
                 <li>50 Articulo</li>
                 <li>Dominio Ilimitado</li>
               </ul>
-              <a class="boton" href="registro-empresa.html">Contratar Ahora</a>
+              <a class="boton" href="registro-empresa.php?plan=3">Contratar Ahora</a>
             </div>
           </div>
         </div>

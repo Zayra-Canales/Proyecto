@@ -8,12 +8,14 @@
 	<!--- Estilos fontawesome -->
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 	<!--- Estilos Css -->
+	<link rel="stylesheet" type="text/css" href="css/creative.min.css">
+		<!--- Estilos Css -->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<!-- Inicio de Codificacion-->
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-success fixed-top py-3" id="mainNav">
+
+	   <nav class="navbar navbar-expand-lg bg-success fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger title text-white nav-main" href="main.html">BRYZATEC</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,35 +41,11 @@
       </div>
     </div>
   </nav>
-  <br><br>
+<br><br><br><br><br>
 
-	<div class="container mt-5">
-		<div class="row">
-		 	<div class="col-md-12">
-                <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="img/pc-1.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="card-text" id="empresa" >Apple</p>
-                      <p class="card-text" id="categoria">portatil</p>
-                    </div>
-                    <div class="col-6">
-                      <p class="card-text" id="precio">40,000</p>
-                      <p class="card-text" id="caracteristicas" > i7 4ta, 128 GB SSD, 4GB ram </p>
-                    </div>
-                  </div><br>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button"  class="btn btn-sm btn-outline-warning">Comprar</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-		</div>
-	</div>
-
+<div class="container">
+   <h1>Perfil usuario</h1>
+</div>
 
 
 	<!-- Fin de codificacion-->
@@ -77,6 +55,8 @@
 	<!---bootstrap JQuery-->
 	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 	<!---Fontawesone-->
-	<script type="text/javascript" src="js/Controlador.js"></script>
+	<script type="text/javascript" src="js/creative.min.js"></script>	
+	<!--- Contrsolador JS-->	
+	<script type="text/javascript" src="js/empresa.js"></script>
 </body>
 </html>

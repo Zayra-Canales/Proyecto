@@ -8,9 +8,9 @@
   <!--- Estilos fontawesome -->
   <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
   <!--- Estilos Css -->
-  <link rel="stylesheet" type="text/css" href="css/estilos.css">
-  <!--- Estilos Css -->
   <link rel="stylesheet" type="text/css" href="css/sing-in.css">
+    <!--- Estilos Css -->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 
 <style>
@@ -35,18 +35,45 @@
   <!-- Inicio de Codificacion-->
 
     <div class="form-signin">
+
       <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal text-primario">Registrate</h1><br>
       <label for="inputEmail" class="sr-only">Correo</label>
-      <input type="email" id="text-usuario" class="form-control" placeholder="Nombre Usuario" required autofocus><br>
+      <input type="email" id="nombreUsuario" class="form-control" placeholder="Nombre Usuario" required autofocus><br>
       <label for="inputEmail" class="sr-only">Correo</label>
-      <input type="email" id="txt-email" class="form-control" placeholder="Correo" required autofocus><br>
-      <label for="inputPassword" class="sr-only">Contrasea</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required><br>
+      <input type="email" id="correo" class="form-control" placeholder="Correo" required autofocus><br>
+      <label for="inputPassword" class="sr-only">Contraseña</label>
+      <input type="password" id="contrasenia" class="form-control" placeholder="Contraseña" required><br>
       <label for="inputPassword" class="sr-only">Confirmar Contrasea</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Confirmar Contraseña" required><br>
+      <input type="password" id="inputPassword2" class="form-control" placeholder="Confirmar Contraseña" required><br>
       <div class="dropdown-divider"></div><br>
+      <button id="btn-agregar" class="btn btn-outline-success btn-block">Registrarte</button>
+      
+      <h1 class="h3 mb-3 font-weight-normal text-primario letra">Registrate</h1>
+      <div class="grupo">
+        <label for="inputEmail" class="label sr-only">Correo</label>
+        <input type="email" id="text-usuario" class="imput" placeholder="Nombre Usuario" required autofocus>
+      </div>
+      
+<div class="grupo">
+      <label for="inputEmail" class="label sr-only">Correo</label>
+      <input type="email" id="txt-email" class="imput" placeholder="Correo" required autofocus>
+</div>
+      
+<div class="grupo">
+  <label for="inputPassword" class="label sr-only">Contrasea</label>
+      <input type="password" id="inputPassword" class="imput" placeholder="Contraseña" required>
+</div>
+      
+<div class="grupo">
+    <label for="inputPassword" class="label sr-only">Confirmar Contrasea</label>
+      <input type="password" id="inputPassword" class="imput" placeholder="Confirmar Contraseña" required>
+</div>
+    
+
+      <div class="dropdown-divider"></div>
       <a href="registro-usuario.html" class="btn btn-outline-success btn-block">Registrarte</a>
+>>>>>>> b0599317f154aa0b46f839ebc7eb250bf7afc57a
       <a href="main.html" class="btn btn-outline-danger btn-block">Cancelar</a>
     </div>
 
@@ -60,6 +87,6 @@
   <!---Fontawesone-->
   <script type="text/javascript" src="fontawesome/css/fontawesome.js"></script> 
   <!--- Contrsolador JS-->  
-  <script type="text/javascript" src="js/Controlador.js"></script>
+  <script type="text/javascript" src="js/cliente.js"></script>
 </body>
 </html>
