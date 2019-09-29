@@ -52,7 +52,10 @@
     </div>
 
     <div class="col-lg-3 col-xl-3 col-md-12 col-xs-12 ">
-        <h3 class="text-center text-success titulo">Registrar Empresa</h3><br>
+        <h3 class="text-center text-success titulo">Registrar Empresa</h3><br><br>
+        <div id="alertError" class="alert alert-danger" style="display: none;" role="alert">
+          conraseñas distintas
+        </div>
 
       <div class="grupo ">
       <label class="label" for="inputEmail4">Nombre empresa</label>

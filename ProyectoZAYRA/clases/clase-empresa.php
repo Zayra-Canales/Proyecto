@@ -84,7 +84,7 @@
 
 		public function agregar(){
 
-			echo "holis";
+			return 0;
 			# code...
 		}
 

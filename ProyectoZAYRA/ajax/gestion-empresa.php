@@ -3,17 +3,21 @@
     
     switch ($_GET["accion"]) {
     	case 'agregarEmpresa':
-    		$empresa=new Empresa(NULL,$_POST["nombreEmpresa"],
+    		$empresa=new Empresa(null,$_POST["nombreEmpresa"],
     			                      $_POST["pais"],
                                       $_POST["contrasenia"],
                                       $_POST["direccion"],
                                       $_POST["longitud"],
-                                      NULL,
-                                      NULL,
+                                      null,
+                                      null,
                                       $_POST["redesSociales"]
 
     			                  );
-    		$empresa->agregar();
+    		$res = $empresa->agregar();
+
+        $respuesta = array('resultado' => $res );
+
+      echo json_encode($respuesta);
     		
     		break;
     	

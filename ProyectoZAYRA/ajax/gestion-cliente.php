@@ -4,7 +4,7 @@
 
 	switch ($_GET["accion"]) {
 		case 'add':
-			$cliente = new Cliente( null, 
+			$cliente = new Cliente( 1, 
 									$_POST["nombreUsuario"], 
 									$_POST["contrasenia"], 
 									$_POST["correo"],

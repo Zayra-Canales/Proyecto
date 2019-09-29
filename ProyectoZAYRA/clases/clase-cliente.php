@@ -63,7 +63,7 @@
 
           
 
- 			return 1;
+ 			return 0;
  		}
 
  		public function editar (){

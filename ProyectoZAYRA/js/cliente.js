@@ -9,11 +9,11 @@ $("#btn-agregar").click(function () {
 		correo : $("#correo").val()
 	};
 
-	//console.log(parametros);
+	console.log(parametros);
 
 	$.ajax({
 
-		url: "ajax/gestion-cliente.php?accion=add",
+		url: "ajax/gestion-empresa.php?accion=agregarEmpresa",
 		method: "POST",
 		dataType: "json",
 		data: parametros,
@@ -21,9 +21,7 @@ $("#btn-agregar").click(function () {
 
 			console.log(respuesta);
 
-			if(respuesta.resultado==1){
-				console.log("se agrego");
-			}
+			
 		}
 	});
 

@@ -22,6 +22,7 @@ $('#btn-login').click(function () {
 				window.location="main.html"
 			} else {
 				alert("usuario incorrecto");
+				$('#alertError').fadeIn(1000);
 			}
 
 
