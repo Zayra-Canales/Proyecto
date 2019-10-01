@@ -14,7 +14,7 @@
 		case 'login':
 
 			$res = Usuario::login($_POST['usr'], $_POST['pass']);
-			$data = array("resultado" => $res);
+			$data = array("resultado " => $res);
 
 			echo json_encode($data);
 
