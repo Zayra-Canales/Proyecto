@@ -35,33 +35,40 @@
   <!-- Inicio de Codificacion-->
 
     <div class="form-signin">
+
+   
+      <div id="alertError" class="alert alert-danger" style="display: none;" role="alert">
+        Usuario incorrecto
+      </div>
+      
+
       
       <h1 class="h3 mb-3 font-weight-normal text-primario letra">Registrate</h1>
       <div class="grupo">
         <label for="inputEmail" class="label sr-only">Correo</label>
-        <input type="email" id="text-usuario" class="imput" placeholder="Nombre Usuario" required autofocus>
+        <input type="email" id="nombreUsuario" class="imput" placeholder="Nombre Usuario" required autofocus>
       </div>
       
 <div class="grupo">
       <label for="inputEmail" class="label sr-only">Correo</label>
-      <input type="email" id="txt-email" class="imput" placeholder="Correo" required autofocus>
+      <input type="email" id="correo" class="imput" placeholder="Correo" required autofocus>
 </div>
       
 <div class="grupo">
   <label for="inputPassword" class="label sr-only">Contrasea</label>
-      <input type="password" id="inputPassword" class="imput" placeholder="Contraseña" required>
+      <input type="password" id="contrasenia" class="imput" placeholder="Contraseña" required>
 </div>
       
 <div class="grupo">
     <label for="inputPassword" class="label sr-only">Confirmar Contrasea</label>
-      <input type="password" id="inputPassword" class="imput" placeholder="Confirmar Contraseña" required>
+      <input type="password" id="contrasenia2" class="imput" placeholder="Confirmar Contraseña" required>
 </div>
+
+      <button id="btn-agregar" class="btn btn-outline-success btn-block">Registrarte</button>
+
     
 
-      <div class="dropdown-divider"></div>
-      <a href="registro-usuario.html" class="btn btn-outline-success btn-block">Registrarte</a>
-      <a href="main.html" class="btn btn-outline-danger btn-block">Cancelar</a>
-    </div>
+  
 
 
   <!-- Fin de codificacion-->
@@ -73,6 +80,6 @@
   <!---Fontawesone-->
   <script type="text/javascript" src="fontawesome/css/fontawesome.js"></script> 
   <!--- Contrsolador JS-->  
-  <script type="text/javascript" src="js/Controlador.js"></script>
+  <script type="text/javascript" src="js/cliente.js"></script>
 </body>
 </html>
