@@ -5,6 +5,7 @@
         private $direccion;
         private $contrasenia;
         private $pais;
+        private $correo;
         private $logo;
 
         public function __construct(
@@ -12,12 +13,16 @@
             $direccion,
             $contrasenia,
             $pais,
+            $correo,
             $logo
         ){
             $this->nombre = $nombre;
             $this->direccion = $direccion;
             $this->contrasenia = $contrasenia;
+            $this->pais = $pais;
+            $this->correo = $correo;
             $this->logo = $logo;
+
         }
 
         public function getnombre(){
@@ -107,6 +112,7 @@
             $result['direccion'] = $this->direccion;
             $result['contrasenia'] = $this->contrasenia;
             $result['pais'] = $this->pais;
+            $result['correo'] = $this->correo;
             $result['logo'] = $this->logo;
 
             return $result;

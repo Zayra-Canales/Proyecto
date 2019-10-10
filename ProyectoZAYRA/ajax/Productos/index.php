@@ -34,6 +34,7 @@
     if ($_SERVER['REQUEST_METHOD']=='DELETE' && isset($_GET['id'])){
 
         Producto::eliminarProducto($database->getDB(),$_GET['id'], $_GET['idEmpresa']);
+
     }
 
     

@@ -13,6 +13,7 @@
                 $_POST['direccion'],
                 $_POST['contrasenia'],
                 $_POST['pais'],
+                $_POST['correo'],
                 'perfil.png'
             );
         
@@ -45,6 +46,7 @@
             $_PUT['direccion'],
             $_PUT['contrasenia'],
             $_PUT['pais'],
+            $_POST['correo'],
             $_PUT['logo']
 
         );

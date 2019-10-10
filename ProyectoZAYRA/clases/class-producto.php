@@ -84,14 +84,14 @@
         }
 
         public static function eliminarProducto($db, $id, $empresa){
-            $db->getReference('emprea/'.$empresa.'/producto')
+            $db->getReference('empresa/'.$empresa.'/producto')
                 ->getChild($id)
                 ->remove();
             echo '{"mensaje":"Se eliminó el elemento '.$id.'"}';
         }
 
-        public function actualizarUsuario($db, $id, $empresa){
-            $result = $db->getReference('emprea/'.$empresa.'/producto')
+        public function actualizarProducto($db, $id, $empresa){
+            $result = $db->getReference('empresa/'.$empresa.'/producto')
                 ->getChild($id)
                 ->set($this->getData());
             
