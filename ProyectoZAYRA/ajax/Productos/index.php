@@ -53,4 +53,10 @@
         echo $p->actualizarProducto($database->getDB(),$_GET['id'], $_GET['idEmpresa']);
     }
 
+
+    if ($_SERVER['REQUEST_METHOD'] =='PUT' && isset($_GET['id']) && isset($_GET['accion']) && $_GET['id']=="compra" ) {
+        
+        
+    }
+
 ?>

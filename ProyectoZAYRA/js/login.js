@@ -6,25 +6,17 @@ $('#btn-login').click(function () {
 	var usuario = $('#nombreUsuario').val();
 	var contra = $('#contraUsuario').val();
 
-	//console.log(contra + usuario);
+	console.log(contra + usuario);
 
-	var param = {usr: usuario, pass: contra};
+	var param = {correo: usuario, contrasenia: contra};
 
 	$.ajax({
-		url: 'ajax/gestion-usuario.php?accion=login',
-		method: 'POST',
-		data: param,
-		dataType: 'json', 
+		url:'ajax/Usuario/index.php?accion=login',
+		method:'POST',
+		data:param,
+		dataType:'json', 
 		success:function(res){
 			console.log(res);
-
-			if (res.resultado==1) {
-				window.location="main.html"
-			} else {
-				alert("usuario incorrecto");
-				$('#alertError').fadeIn(1000);
-			}
-
 
 		}
 	});

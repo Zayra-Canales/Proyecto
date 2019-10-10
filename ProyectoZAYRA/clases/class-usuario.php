@@ -99,12 +99,36 @@
                 return '{"mensaje":"Error al actualizar el registro"}';
         }
 
+
+        public static function login($db, $correo, $password){
+
+            $result = $db->getReference('usuarios')
+                            ->orderByChild('correo')
+                            ->equalTo($correo)
+                            ->getSnapshot()
+                            ->getValue();
+
+
+            $key = array_key_first($result);
+            $valido = password_verify($password, $result[$key]["contrasenia"]);
+            
+            if ($valido==1) {
+                return json_encode( array("key"=> $key ));
+                setcookie('key', $key, time() + (86400 * 30), "/" );
+            } else {
+                return json_encode( array("key"=> 0 ));
+            }
+            
+            
+
+        }
+
         //Retornar un arreglo asociativo con todos los atributos de la clase
         public function getData(){
             $result['nombre'] = $this->nombre;
             $result['apellido'] = $this->apellido;
             $result['correo'] = $this->correo;
-            $result['contrasenia'] = $this->contrasenia;
+            $result['contrasenia'] = password_hash($this->contrasenia, PASSWORD_DEFAULT);
             return $result;
         }
 
