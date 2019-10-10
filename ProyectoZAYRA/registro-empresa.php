@@ -82,14 +82,14 @@
       <label class="label" for="inputState">Pais</label>
       <select id="paisEmpresa" class="imput">
         <option selected>Choose...</option>
-        <option value="1">Honduras</option>
-        <option value="2">Estados Unidos</option>
-        <option value="3">Mexico</option>
+        <option value="Honduras">Honduras</option>
+        <option value="Estados Unidos">Estados Unidos</option>
+        <option value="Mexico">Mexico</option>
       </select>
     </div>
 
     <br>
-    <button class="btn btn-outline-success borde btn-block p-2">Agregar</button>
+    <button class="btn btn-outline-success borde btn-block p-2" id="btn-agregarEmpresa">Agregar</button>
     <a href="main.html" class="btn btn-outline-secondary btn-block p-2 letra borde">Cancelar</a>
 
 

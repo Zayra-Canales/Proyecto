@@ -1,0 +1,7 @@
+{
+    "name": "zayra/proyecto-zayra",
+    "description": "Proyecto poo",
+    "require": {
+        "kreait/firebase-php": "^4.32"
+    }
+}

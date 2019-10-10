@@ -45,6 +45,26 @@
 
 <div class="container">
    <h1>Perfil empresa</h1>
+
+  <input type="text" id="idEmpresa" name="" value=" <?php echo $_GET["id"] ?> ">
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+
 </div>
 
 
@@ -57,6 +77,6 @@
 	<!---Fontawesone-->
 	<script type="text/javascript" src="js/creative.min.js"></script>	
 	<!--- Contrsolador JS-->	
-	<script type="text/javascript" src="js/empresa.js"></script>
+	<script type="text/javascript" src="js/perfil-empresa.js"></script>
 </body>
 </html>

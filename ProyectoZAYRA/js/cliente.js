@@ -17,12 +17,9 @@ $("#btn-agregar").click(function () {
 		method: "POST",
 		dataType: "json",
 		data: parametros,
-		success:function(respuesta){
+		
 
-			console.log(respuesta);
-
-			
-		}
+		
 	});
 
 
